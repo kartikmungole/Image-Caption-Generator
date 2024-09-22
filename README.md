@@ -8,4 +8,15 @@ Utilizes Hugging Face’s BLIP model for image captioning.
 Easy-to-use interface for providing images and receiving captions.
 Supports multiple image formats (JPEG, PNG, etc.).
 
+## Libraries Used
+This project leverages several key libraries to handle the different components of the image captioning process:
+
+## Hugging Face Transformers:
+Provides access to the BLIP model, which is pre-trained for image captioning.
+Includes the necessary tools to load, configure, and use pre-trained models for inference.
+## Pillow(PIL):
+A Python Imaging Library used to load and preprocess images before feeding them into the model.
+## Transformers:
+Used for loading the BLIP model and tokenizer, as well as handling the caption generation pipeline.
+
 
