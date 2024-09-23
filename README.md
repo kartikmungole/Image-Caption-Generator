@@ -3,8 +3,6 @@
 This project generates descriptive captions for images using a machine learning model. It leverages pre-trained models to automatically analyze an image and output a meaningful caption that describes the content of the image. The project is built using Python and Hugging Face's Transformers library, and specifically utilizes the BLIP (Bootstrapping Language-Image Pretraining) model for generating image captions.
 
 
-
-
 ## Features
 Generates accurate and descriptive captions for any image.
 Utilizes Hugging Face’s BLIP model for image captioning.
@@ -24,8 +22,18 @@ A Python Imaging Library used to load and preprocess images before feeding them 
 # Transformers:
 Used for loading the BLIP model and tokenizer, as well as handling the caption generation pipeline.
 
+
 ## Model Details
 This project uses the BLIP model, which is part of the Hugging Face Transformers library. BLIP is a vision-language model that excels at tasks requiring joint understanding of both image and text, such as caption generation. It is pre-trained on large-scale datasets that pair images with textual descriptions, allowing it to generate accurate and descriptive captions.
+
+
+How It Works
+Preprocessing:
+The image provided by the user is loaded and preprocessed using the Pillow library to ensure it is in the correct format for the model.
+Model Inference:
+The pre-trained BLIP model is loaded using Hugging Face’s Transformers library. The image is then passed through the model, which generates a caption based on the image content.
+Output:
+The generated caption is printed to the terminal.
 
 
 
