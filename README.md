@@ -28,11 +28,11 @@ This project uses the BLIP model, which is part of the Hugging Face Transformers
 
 
 ## How It Works
-# Preprocessing:
+* Preprocessing:
 The image provided by the user is loaded and preprocessed using the Pillow library to ensure it is in the correct format for the model.
-# Model Inference:
+* Model Inference:
 The pre-trained BLIP model is loaded using Hugging Face’s Transformers library. The image is then passed through the model, which generates a caption based on the image content.
-# Output:
+* Output:
 The generated caption is printed to the terminal.
 
 
