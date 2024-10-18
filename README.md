@@ -1,5 +1,4 @@
 ## Image Caption Generator
-
 This project generates descriptive captions for images using a machine learning model. It leverages pre-trained models to automatically analyze an image and output a meaningful caption that describes the content of the image. The project is built using Python and Hugging Face's Transformers library, and specifically utilizes the BLIP (Bootstrapping Language-Image Pretraining) model for generating image captions.
 
 
