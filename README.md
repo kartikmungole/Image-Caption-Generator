@@ -12,7 +12,7 @@ This project generates descriptive captions for images using a machine learning 
 ## Libraries Used
 This project leverages several key libraries to handle the different components of the image captioning process:
 
-# Hugging Face Transformers:
+### Hugging Face Transformers:
 * Provides access to the BLIP model, which is pre-trained for image captioning.
 * Includes the necessary tools to load, configure, and use pre-trained models for inference.
 
